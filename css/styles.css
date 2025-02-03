@@ -79,11 +79,15 @@ div {
   }
 
 .green {
-    background-color: #00EB00;
+    background-color: #00D800;
     text-align: left;
     margin-right: 50px;
     border-right: 5px;
     border-top: 2px;
+}
+
+.green p {
+    color: #707070;
 }
 
 footer {
@@ -95,7 +99,7 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
-    padding: 15px, 15px, 15px, 0;
+    padding: 15px 15px 15px 0;
 
 }
 

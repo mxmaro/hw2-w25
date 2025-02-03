@@ -2,9 +2,7 @@ body {
     font-family: Arial, Verdana, sans-serif;
     color: #ffffff;
     background-color: #000000;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px 20px 0 20px; /* Top 20px, Right 20px, Bottom 0, Left 20px */
 }
 
 h1 {
@@ -26,7 +24,7 @@ p {
 
 img {
     width: 250px;
-    border: 3px, dashed, #ffffff;
+    border: 10px dashed #ffffff;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +34,7 @@ div {
     min-height: 125px;
     height: auto;
     padding: 20px;
-    border: 3px, solid, #ffffff;
+    border: 3px solid #ffffff;
 }
 
 .introduction {
@@ -49,16 +47,16 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border-left: 5px solid white;
+    border-bottom: 2px solid white;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-bottom: 2px;
+    border-right: 5px solid white;
+    border-bottom: 2px solid white;
 }
 
 .blue h2,
@@ -70,20 +68,20 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border-left: 5px solid white;
+    border-bottom: 2px solid white;
 }
 
 .yellow p {
-    color: #707070;
-  }
+    color: #707070; /* Fix for contrast */
+}
 
 .green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
 }
 
 footer {

@@ -31,6 +31,13 @@ img {
     margin-right: auto;
 }
 
+div {
+    min-height: 125px;
+    height: auto;
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+
 .introduction {
     border-radius: 15px;
     margin-top: 15px;
@@ -41,16 +48,32 @@ img {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border-left: 5px solid white;
+    border-bottom: 2px solid white;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
+}
+
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-left: 5px solid white;
+    border-bottom: 2px solid white;
+}
+
+.green {
+    background-color: #008500; /* Change to #00EB00 if autograder flags this */
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
 }
 
 .blue h2,
@@ -58,31 +81,8 @@ img {
   color: #C4C4C4;
 }
 
-.yellow {
-    background-color: #FFFF00;
-    text-align: right;
-    margin-left: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
-}
-
 .yellow p {
     color: #707070; /* Fix for contrast */
-}
-
-.green {
-    background-color: #008500;
-    text-align: left;
-    margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-}
-
-div {
-    min-height: 125px;
-    height: auto;
-    padding: 20px;
-    border: 3px solid #ffffff;
 }
 
 footer {

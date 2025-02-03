@@ -79,15 +79,11 @@ div {
   }
 
 .green {
-    background-color: #00D800;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-right: 5px;
     border-top: 2px;
-}
-
-.green p {
-    color: #707070;
 }
 
 footer {
